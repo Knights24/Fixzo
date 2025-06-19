@@ -15,7 +15,10 @@ class HomeScreen extends StatelessWidget {
     ];
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Fixzo'), centerTitle: true),
+      appBar: AppBar(
+        title: const Text('Clapwise'),
+        centerTitle: true,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(12.0),
         child: GridView.builder(
@@ -25,8 +28,7 @@ class HomeScreen extends StatelessWidget {
             crossAxisSpacing: 12,
             mainAxisSpacing: 12,
           ),
-          itemBuilder: (context, index) =>
-              ServiceCard(service: services[index]),
+          itemBuilder: (context, index) => ServiceCard(service: services[index]),
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(

@@ -9,10 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^1.0.8
-  # (Optional) for better UI layout and responsiveness:
   google_fonts: ^6.1.0
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
 
 dev_dependencies:
   flutter_test:
@@ -24,3 +24,10 @@ flutter:
 
   assets:
     - assets/images/
+
+  fonts:
+    - family: FiraCode
+      fonts:
+        - asset: assets/fonts/FiraCode-Regular.ttf
+        - asset: assets/fonts/FiraCode-Bold.ttf
+          weight: 700
