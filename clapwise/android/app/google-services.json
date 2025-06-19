@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "147214224123",
+    "project_id": "clapwise-betav1",
+    "storage_bucket": "clapwise-betav1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147214224123:android:ddea4664ed3823f4587e5e",
+        "android_client_info": {
+          "package_name": "com.company.visec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo9Pytyv-Tyi2GPlqHaggP9uiQ1ecA0Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
